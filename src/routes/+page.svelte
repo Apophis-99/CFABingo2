@@ -127,7 +127,11 @@
 	<div bind:this={mainDiv} class="main" style="background-color: {$CurrentTheme.MainPanelBackgroundColour}">
 		<button class="main-ball" onclick={nextNumber}
 		        style="background-color: {$CurrentTheme.MainBallBackgroundColour}; color: {$CurrentTheme.MainBallForegroundColour}; height: {ballSize}px;">
-			{gameState.currentNumber}
+			{#if gameState.currentNumber === 0}
+				?
+			{:else}
+				{gameState.currentNumber}
+			{/if}
 		</button>
 	</div>
 	
