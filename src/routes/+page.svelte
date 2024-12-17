@@ -2,7 +2,7 @@
 	import Modal from '../settingsModal.svelte';
 	import { onMount, tick } from "svelte";
 	import {CurrentTheme, LoadThemes, LoadCurrentTheme, AllThemes} from "../theme";
-	import {getCurrentWindow, LogicalSize} from '@tauri-apps/api/window';
+	import {getCurrentWindow} from '@tauri-apps/api/window';
 
 	class GameState {
 		public currentNumber: number = $state(0);
