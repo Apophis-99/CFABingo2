@@ -1,0 +1,13 @@
+{
+	"MainPanelBackgroundColour": "#FFC2C2",
+	"MainBallBackgroundColour": "#E34564",
+	"MainBallForegroundColour": "#000000",
+	"SidebarBackgroundColour": "#824577",
+	"SidebarBallCalledBackgroundColour": "#48c767",
+	"SidebarBallUncalledBackgroundColour": "#ff6161",
+	"SidebarBallCalledForegroundColour": "#000000",
+	"SidebarBallUncalledForegroundColour": "#000000",
+	"BottomBarBackgroundColour": "#D55DB5",
+	"BottomBarBallBackgroundColour": "#cbcbe1",
+	"BottomBarBallForegroundColour": "#000000"
+}
